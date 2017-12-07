@@ -46,4 +46,4 @@ and the detailed information will appear to the right.
 ## Acknowledgments
 
 * Adrian Padua for chucking all the SRD info into an API. http://www.dnd5eapi.co/
-* Wizards of the Coast for making all the RP belong to us.
+* Wizards of the Coast for making all the RP are belong to us.

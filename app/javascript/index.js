@@ -1,7 +1,8 @@
 require("../css/app.css");
-var populateThisPage = require('./populatePage.js');
-var grabMonster = require('./getMonster.js');
-  window.grabMonster = grabMonster;
+
+var monsterPopulatePage = require('./monsterPopulatePage.js');
+var monsterGetMonster = require('./monsterGetMonster.js');
+  window.grabMonster = monsterGetMonster;
 
 $(document).ready(function() {
 
@@ -11,7 +12,7 @@ $(document).ready(function() {
         // console.log("2");
       }).then(function(data) {
         // Yay! Do things.
-        populateThisPage.monsterFill(data);
+        monsterPopulatePage.monsterFill(data);
       }).catch(function(error) {
         console.log(error);
       })

@@ -1,4 +1,4 @@
-var populatePage = {
+var monsterPopulatePage = {
 
   monsterFill: function(data) {
     console.log(data.count);
@@ -18,4 +18,4 @@ var populatePage = {
 
 }
 
-module.exports = populatePage;
+module.exports = monsterPopulatePage;

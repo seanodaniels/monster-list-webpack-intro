@@ -14,6 +14,7 @@ After downloading the code, run the following:
 
 ```
 npm install
+npm install webpack --save-dev
 ```
 
 then, in the root directory, run

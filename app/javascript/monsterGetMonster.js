@@ -1,6 +1,6 @@
-var goMonster = require('./showMonster.js');
+var monsterDisplay = require('./monsterDisplay.js');
 
-var getMonster = {
+var monsterGetMonster = {
 
   getByURL: function(url) {
 
@@ -8,11 +8,11 @@ var getMonster = {
       .then(function(response) {
         return response.json();
       }).then(function(data) {
-        goMonster.printEntry(data);
+        monsterDisplay.printEntry(data);
       }).catch(function(error) {
         console.log(error);
       })
   }
 
 }
-module.exports = getMonster;
+module.exports = monsterGetMonster;

@@ -1,4 +1,4 @@
-var showStats = {
+let showStats = {
 
 }
 

@@ -1,6 +1,9 @@
-var monsterDisplay = require('./monsterDisplay.js');
+let monsterDisplay = require('./monsterDisplay.js');
 
-var monsterGetMonster = {
+// import monsterDisplay from './monsterDisplay.js';
+
+
+let monsterGetMonster = {
 
   getByURL: function(url) {
 

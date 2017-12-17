@@ -1,4 +1,4 @@
-var monsterPopulatePage = {
+let monsterPopulatePage = {
 
   monsterFill: function(data) {
     console.log(data.count);

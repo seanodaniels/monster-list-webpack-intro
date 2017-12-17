@@ -1,14 +1,14 @@
 require("../css/app.css");
 
-var monsterPopulatePage = require('./monsterPopulatePage.js');
-var monsterGetMonster = require('./monsterGetMonster.js');
+import monsterPopulatePage from './monsterPopulatePage.js';
+import monsterGetMonster from './monsterGetMonster.js';
   window.grabMonster = monsterGetMonster;
 
 $(document).ready(function() {
 
     fetch('http://www.dnd5eapi.co/api/monsters/')
       .then(function(response) {
-        return response.json();
+        return response.json()
         // console.log("2");
       }).then(function(data) {
         // Yay! Do things.

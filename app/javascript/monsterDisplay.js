@@ -1,4 +1,4 @@
-var monsterDisplay = {
+let monsterDisplay = {
   printEntry: function(data) {
     $('#monster-viewer').empty();
     $('#monster-viewer').append('<h2>' + data.name + '</h2>\n<p>');
@@ -102,3 +102,4 @@ var monsterDisplay = {
 }
 
 module.exports = monsterDisplay;
+//exports default monsterDisplay;
